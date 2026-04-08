@@ -47,7 +47,7 @@ The goal was to train a Wav2Vec2-based speech-to-text model using the HuggingFac
 
 ## Results
 
-Training was run for ~35 epochs (~4,060 steps total). Because the model was trained **from scratch** (no pre-trained weights), the WER remained high (~0.9999), confirming that Wav2Vec2 strongly benefits from pre-trained representations for downstream ASR tasks. This experiment serves as a useful baseline/ablation reference.
+Training was run for ~35 epochs (~4,060 steps total). Because the model was Fine tuned form the base pretrained model, the WER remained high (~0.9999), confirming that Wav2Vec2 strongly benefits from pre-trained representations for downstream ASR tasks. This experiment serves as a useful baseline/ablation reference.
 
 | Step | Training Loss | Validation Loss | WER    |
 |------|---------------|-----------------|--------|
